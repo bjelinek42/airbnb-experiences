@@ -5,3 +5,41 @@
 body {
   margin: 0;
 }
+
+nav {
+  height: 70px;
+  display: flex;
+  padding: 20px 36px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.nav--logo {
+  max-width: 100px;
+}
+
+.hero {
+  padding: 20px;
+  font-family: 'Poppins', sans-serif;
+  line-height: 110%;
+  color: #222222
+}
+
+.hero--img {
+  display: flex;
+  width: 500px;
+}
+
+.hero--title {
+  font-weight: 600;
+  font-size: 36px;
+  letter-spacing: 2px;
+  margin-bottom: 16px;
+}
+
+.hero--info {
+  font-weight: 300;
+  font-size: 16px;
+  width: 320px;
+  letter-spacing: 1px;
+  margin-top: 0px;
+}
