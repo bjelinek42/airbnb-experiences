@@ -13,13 +13,23 @@ nav {
   box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
 }
 
+span {
+  margin-right: 4px
+}
+
 .nav--logo {
   max-width: 100px;
 }
 
-.hero {
+section {
   padding: 20px;
+}
+
+body {
   font-family: 'Poppins', sans-serif;
+}
+
+.hero {
   line-height: 110%;
   color: #222222
 }
@@ -42,4 +52,22 @@ nav {
   width: 320px;
   letter-spacing: 1px;
   margin-top: 0px;
+}
+
+.card--star {
+  width: 14px;
+  margin-right: 4px
+}
+
+.card--info {
+  margin-top: 5px;
+  font-size: 12px
+}
+
+.card--info--reviews {
+  color: #918E9B;
+}
+
+.card--info--location {
+  color: #918E9B;
 }
